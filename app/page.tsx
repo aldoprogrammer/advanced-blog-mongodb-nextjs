@@ -21,7 +21,7 @@ export default function Home() {
         content={post.content} 
         links={post.links || []} />
     ))
-    ) : ( <div>
+    ) : ( <div className='py-6'>
       No posts to display</div>)}
     </>
   )
